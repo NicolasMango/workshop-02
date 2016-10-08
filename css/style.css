@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro";
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  max-width: 1400px; }
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.contenedor2 {
+  display: flex;
+  flex-direction: row; }
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px; }
+
+header ul {
+  font-family: 'Crimson Text', serif;
+  font-size: 25px; }
+  header ul li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column; }
+header lista2 ul {
+  display: inline-block;
+  float: left; }
+  header lista2 ul li {
+    display: inline-block; }
+    header lista2 ul li a {
+      text-decoration: none; }
+
+.catalogo {
+  text-align: center;
+  padding-left: 3%; }
+  .catalogo p {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-top: 20%;
+    padding-left: -1%; }
+  .catalogo ul {
+    list-style: none; }
+    .catalogo ul li {
+      font-family: 'Source Sans Pro', sans-serif;
+      text-transform: capitalize;
+      font-size: 20px;
+      color: darkgrey;
+      padding-top: 20%;
+      padding-left: 20%; }
+      .catalogo ul li a {
+        text-decoration: none; }
+
+.temporada {
+  max-width: 1200px;
+  max-height: 1200px; }
+
+.autumn {
+  background-image: url("../images/0.jpg");
+  background-size: cover;
+  height: 555px; }
+  .autumn div {
+    padding-top: 16%;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10%; }
+    .autumn div p {
+      font-family: 'Source Sans Pro', sans-serif;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: darkgrey; }
+    .autumn div h2 {
+      font-family: 'Crimson Text', serif;
+      font-size: 90px;
+      color: white;
+      padding-top: 30px;
+      padding-bottom: 30px; }
+
+.classic {
+  margin-top: 2%;
+  background-image: url("../images/home-feature-4.png");
+  background-size: cover;
+  width: 45%;
+  padding-bottom: 5%;
+  padding-top: 5%; }
+  .classic div {
+    display: inline-block; }
+    .classic div p {
+      font-family: 'Source Sans Pro', sans-serif;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: grey; }
+    .classic div h2 {
+      font-family: 'Crimson Text', serif;
+      font-size: 50px;
+      color: white;
+      padding-top: 30px;
+      padding-bottom: 30px; }
+
+.productos {
+  padding-top: 43px; }
+  .productos h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: violet;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px; }
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  text-align: center; }
+  .producto img {
+    width: 100%; }
+  .producto h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: violet;
+    text-transform: uppercase; }
+  .producto h3 {
+    font-family: 'Crimson Text', serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-bottom: 6%;
+    padding-top: 3%;
+    font-size: 20px;
+    color: black; }
+  .producto p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    color: violet; }
+
+.welcome {
+  max-width: 1200px;
+  padding-top: 5%; }
+  .welcome div {
+    width: 100%; }
+    .welcome div h2 {
+      font-family: 'Crimson Text', serif;
+      text-transform: capitalize;
+      font-weight: bold;
+      padding-bottom: 3%;
+      padding-top: 3%;
+      font-size: 40px;
+      color: black; }
+    .welcome div p {
+      font-family: 'Source Sans Pro', sans-serif;
+      text-transform: capitalize;
+      padding-bottom: 6%;
+      padding-top: 3%;
+      font-size: 20px;
+      color: violet; }
+    .welcome div img {
+      width: 100%; }
+  .welcome .descuento {
+    background-image: url("../images/6.png");
+    background-size: cover;
+    text-align: center;
+    width: 100%; }
+    .welcome .descuento div {
+      display: inline-block;
+      padding-bottom: 10%;
+      padding-top: 10%; }
+      .welcome .descuento div h2 {
+        font-family: 'Crimson Text', serif;
+        text-transform: capitalize;
+        font-weight: normal;
+        padding-bottom: 3%;
+        padding-top: 3%;
+        font-size: 100px;
+        color: white; }
+      .welcome .descuento div p {
+        padding: 0px;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-transform: uppercase;
+        font-size: 30px;
+        color: lightgrey; }
+
+.news {
+  text-align: center; }
+  .news .new {
+    width: 25%; }
+    .news .new h2 {
+      font-family: 'Crimson Text', serif;
+      text-transform: capitalize;
+      font-weight: bold;
+      font-size: 30px;
+      color: black; }
+    .news .new p {
+      padding: 0px;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 15px;
+      color: lightgrey; }
+
+/*# sourceMappingURL=style.css.map */
