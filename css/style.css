@@ -52,7 +52,12 @@ body {
 .columna {
   display: flex;
   flex-direction: column;
-  max-width: 1200px; }
+  max-width: 1000px; }
+
+.contenedor-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 header ul {
   font-family: 'Crimson Text', serif;
@@ -92,13 +97,12 @@ header lista2 ul {
         text-decoration: none; }
 
 .temporada {
-  max-width: 1200px;
-  max-height: 1200px; }
+  max-width: 1000px; }
 
 .autumn {
   background-image: url("../images/0.jpg");
   background-size: cover;
-  height: 555px; }
+  padding-bottom: 14%; }
   .autumn div {
     padding-top: 16%;
     display: inline-block;
@@ -173,7 +177,7 @@ header lista2 ul {
     color: violet; }
 
 .welcome {
-  max-width: 1200px;
+  max-width: 1000px;
   padding-top: 5%; }
   .welcome div {
     width: 100%; }
@@ -221,7 +225,7 @@ header lista2 ul {
 .news {
   text-align: center; }
   .news .new {
-    width: 25%; }
+    width: 30%; }
     .news .new h2 {
       font-family: 'Crimson Text', serif;
       text-transform: capitalize;
@@ -233,5 +237,8 @@ header lista2 ul {
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 15px;
       color: lightgrey; }
+
+.collections .collection {
+  width: 33%; }
 
 /*# sourceMappingURL=style.css.map */

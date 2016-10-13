@@ -19,7 +19,13 @@ body{
 .columna{
 	display: flex;
 	flex-direction: column;
-	max-width: 1200px;
+	max-width: 1000px;
+}
+
+.contenedor-wrap{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 header{
@@ -77,15 +83,14 @@ header{
 	}
 }
 .temporada{
-	max-width: 1200px;
-	max-height: 1200px;
+	max-width: 1000px;
 }
 
 .autumn{
 
 	background-image: url("../images/0.jpg");
 	background-size: cover;
-	height: 555px;
+	padding-bottom: 14%;
 
 	div{
 		padding-top: 16%;
@@ -183,7 +188,7 @@ header{
 }
 
 .welcome{
-	max-width: 1200px;
+	max-width: 1000px;
 	padding-top: 5%;
 
 	div{
@@ -246,7 +251,7 @@ header{
 .news{
 	text-align: center;	
 	.new{
-		width: 25%;
+		width: 30%;
 		
 		h2{
 			font-family: 'Crimson Text', serif;
@@ -264,5 +269,11 @@ header{
 		}
 
 
+	}
+}
+
+.collections{
+	.collection{
+		width: 33%;
 	}
 }
