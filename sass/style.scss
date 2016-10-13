@@ -1,6 +1,6 @@
 @import	"reset";
 @import 'https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro';
-@import 'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
+@import 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
 
 body{
 	max-width: 1400px;
@@ -8,6 +8,13 @@ body{
 .contenedor{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+}
+
+.contenedor-wrap{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
@@ -19,7 +26,7 @@ body{
 .columna{
 	display: flex;
 	flex-direction: column;
-	max-width: 1200px;
+	max-width: 1000px;
 }
 
 header{
@@ -36,18 +43,6 @@ header{
 		}
 		
 	}
-	lista2{
-		ul{
-			display: inline-block;
-			float: left;
-			li{
-				display: inline-block;
-				a{
-					text-decoration: none;
-				}
-			}
-		}
-	}
 }
 
 .catalogo{
@@ -63,6 +58,8 @@ header{
 	}
 	ul{
 		list-style: none;
+		position: relative;
+		left: 15%;
 		li{
         	font-family: 'Source Sans Pro', sans-serif;
     		text-transform: capitalize;
@@ -77,15 +74,14 @@ header{
 	}
 }
 .temporada{
-	max-width: 1200px;
-	max-height: 1200px;
+	max-width: 1000px;
 }
 
 .autumn{
 
 	background-image: url("../images/0.jpg");
 	background-size: cover;
-	height: 555px;
+	padding-bottom: 14%;
 
 	div{
 		padding-top: 16%;
@@ -125,13 +121,15 @@ header{
     	    font-family: 'Source Sans Pro', sans-serif;
     		text-transform: uppercase;
     		font-size: 20px;
-    		color: grey;
+    		padding-left: 14%;
+    		color: #F5F5F7;
     	}
     	h2{
     		font-family: 'Crimson Text', serif;
-    		font-size: 50px;
+    		font-size: 45px;
     		color: white;
     		padding-top: 30px;
+    		padding-left: 15%;
     		padding-bottom: 30px;
     	}
 	}
@@ -183,7 +181,7 @@ header{
 }
 
 .welcome{
-	max-width: 1200px;
+	max-width: 1000px;
 	padding-top: 5%;
 
 	div{
@@ -246,7 +244,7 @@ header{
 .news{
 	text-align: center;	
 	.new{
-		width: 25%;
+		width: 31%;
 		
 		h2{
 			font-family: 'Crimson Text', serif;
@@ -260,9 +258,19 @@ header{
 			padding: 0px;
 	    	font-family: 'Source Sans Pro', sans-serif;
 	    	font-size: 15px;
+	    	font-weight: normal;
 	    	color: lightgrey;
 		}
 
 
+	}
+}
+.collections{
+	text-align: center;
+	max-width: 1000px;
+
+	.collection{
+		max-width: 31%;
+    	padding: 2% 0.5%
 	}
 }

@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 @import "https://fonts.googleapis.com/css?family=Crimson+Text|Source+Sans+Pro";
-@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+@import "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -45,6 +45,12 @@ body {
   flex-direction: row;
   justify-content: space-between; }
 
+.contenedor-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
 .contenedor2 {
   display: flex;
   flex-direction: row; }
@@ -52,7 +58,7 @@ body {
 .columna {
   display: flex;
   flex-direction: column;
-  max-width: 1200px; }
+  max-width: 1000px; }
 
 header ul {
   font-family: 'Crimson Text', serif;
@@ -62,13 +68,6 @@ header ul {
     justify-content: center;
     align-content: center;
     flex-direction: column; }
-header lista2 ul {
-  display: inline-block;
-  float: left; }
-  header lista2 ul li {
-    display: inline-block; }
-    header lista2 ul li a {
-      text-decoration: none; }
 
 .catalogo {
   text-align: center;
@@ -80,7 +79,9 @@ header lista2 ul {
     padding-top: 20%;
     padding-left: -1%; }
   .catalogo ul {
-    list-style: none; }
+    list-style: none;
+    position: relative;
+    left: 15%; }
     .catalogo ul li {
       font-family: 'Source Sans Pro', sans-serif;
       text-transform: capitalize;
@@ -92,13 +93,12 @@ header lista2 ul {
         text-decoration: none; }
 
 .temporada {
-  max-width: 1200px;
-  max-height: 1200px; }
+  max-width: 1000px; }
 
 .autumn {
   background-image: url("../images/0.jpg");
   background-size: cover;
-  height: 555px; }
+  padding-bottom: 14%; }
   .autumn div {
     padding-top: 16%;
     display: inline-block;
@@ -129,12 +129,14 @@ header lista2 ul {
       font-family: 'Source Sans Pro', sans-serif;
       text-transform: uppercase;
       font-size: 20px;
-      color: grey; }
+      padding-left: 14%;
+      color: #F5F5F7; }
     .classic div h2 {
       font-family: 'Crimson Text', serif;
-      font-size: 50px;
+      font-size: 45px;
       color: white;
       padding-top: 30px;
+      padding-left: 15%;
       padding-bottom: 30px; }
 
 .productos {
@@ -173,7 +175,7 @@ header lista2 ul {
     color: violet; }
 
 .welcome {
-  max-width: 1200px;
+  max-width: 1000px;
   padding-top: 5%; }
   .welcome div {
     width: 100%; }
@@ -221,7 +223,7 @@ header lista2 ul {
 .news {
   text-align: center; }
   .news .new {
-    width: 25%; }
+    width: 31%; }
     .news .new h2 {
       font-family: 'Crimson Text', serif;
       text-transform: capitalize;
@@ -232,6 +234,14 @@ header lista2 ul {
       padding: 0px;
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 15px;
+      font-weight: normal;
       color: lightgrey; }
+
+.collections {
+  text-align: center;
+  max-width: 1000px; }
+  .collections .collection {
+    max-width: 31%;
+    padding: 2% 0.5%; }
 
 /*# sourceMappingURL=style.css.map */
