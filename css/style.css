@@ -112,11 +112,11 @@ header ul {
     .autumn div p {
       font-family: 'Source Sans Pro', sans-serif;
       text-transform: uppercase;
-      font-size: 20px;
+      font-size: 25px;
       color: darkgrey; }
     .autumn div h2 {
       font-family: 'Crimson Text', serif;
-      font-size: 90px;
+      font-size: 70px;
       color: white;
       padding-top: 30px;
       padding-bottom: 30px; }
@@ -145,14 +145,15 @@ header ul {
       padding-bottom: 30px; }
 
 .productos {
-  padding-top: 43px; }
+  padding-top: 5%;
+  padding-bottom: 5%; }
   .productos h2 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
-    color: violet;
+    font-size: 21px;
+    color: lightgray;
     text-transform: uppercase;
     text-align: center;
-    padding-bottom: 20px; }
+    padding-bottom: 5%; }
 
 .producto {
   display: flex;
@@ -182,6 +183,8 @@ header ul {
 .welcome {
   max-width: 1000px;
   padding-top: 5%; }
+  .welcome .contenedor {
+    padding-bottom: 5%; }
   .welcome div {
     width: 100%; }
     .welcome div h2 {
@@ -226,17 +229,20 @@ header ul {
         color: lightgrey; }
 
 .news {
-  text-align: center; }
+  padding-top: 10%; }
   .news .new {
     width: 31%; }
     .news .new h2 {
+      text-align: left;
       font-family: 'Crimson Text', serif;
       text-transform: capitalize;
       font-weight: bold;
       font-size: 30px;
+      padding-bottom: 6%;
       color: black; }
     .news .new p {
-      padding: 0px;
+      text-align: center;
+      padding-top: 8%;
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 15px;
       font-weight: normal;
@@ -245,8 +251,67 @@ header ul {
 .collections {
   text-align: center;
   max-width: 1000px; }
+  .collections h2 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: lightgrey; }
   .collections .collection {
     max-width: 31%;
     padding: 2% 0.5%; }
+
+footer {
+  border-top-style: 2px solid #3B4859;
+  padding-top: 7%;
+  padding-bottom: 7%; }
+  footer ul {
+    width: 15%;
+    padding-left: 7%; }
+    footer ul li {
+      padding-bottom: 17%;
+      text-align: left;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 17px;
+      font-weight: normal;
+      color: #3B4859; }
+      footer ul li p {
+        text-transform: uppercase; }
+      footer ul li a {
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #3B4859; }
+  footer .twitter {
+    width: 40%; }
+  footer .newsletter {
+    width: 40%; }
+    footer .newsletter h2 {
+      padding-bottom: 5%;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 17px;
+      font-weight: normal;
+      color: #3B4859;
+      text-transform: uppercase; }
+    footer .newsletter input {
+      padding: 3%;
+      padding-right: 63%;
+      text-align: start;
+      border-radius: 4%;
+      border-style: 1px solid #3B4859; }
+    footer .newsletter p {
+      padding-bottom: 5%;
+      padding-top: 10%;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 17px;
+      font-weight: normal;
+      color: #3B4859;
+      text-transform: uppercase; }
+    footer .newsletter span {
+      font-size: 45px;
+      color: #3B4859;
+      padding-left: 2%; }
 
 /*# sourceMappingURL=style.css.map */

@@ -97,12 +97,12 @@ header{
     	p{
     	    font-family: 'Source Sans Pro', sans-serif;
     		text-transform: uppercase;
-    		font-size: 20px;
+    		font-size: 25px;
     		color: darkgrey;
     	}
     	h2{
     		font-family: 'Crimson Text', serif;
-    		font-size: 90px;
+    		font-size: 70px;
     		color: white;
     		padding-top: 30px;
     		padding-bottom: 30px;
@@ -141,14 +141,17 @@ header{
 	}
 }
 .productos{
-	padding-top: 43px;
+	
+	padding-top: 5%;
+	padding-bottom: 5%;
+
  	h2{
     	font-family: 'Source Sans Pro', sans-serif;
-    	font-size: 20px;
-    	color: violet;
+    	font-size: 21px;
+    	color: lightgray;
     	text-transform: uppercase;
     	text-align: center;	
-    	padding-bottom: 20px;	
+    	padding-bottom: 5%;	
  	}
 }
 .producto{
@@ -168,7 +171,6 @@ header{
     	text-transform: uppercase;
 	}
 	h3{
-
     	font-family: 'Crimson Text', serif;
     	text-transform: capitalize;
     	font-weight: bold;
@@ -178,7 +180,6 @@ header{
     	color: black;
 	}
 	p{
-
     	font-family: 'Source Sans Pro', sans-serif;
     	font-size: 25px;
     	color: violet;
@@ -189,6 +190,10 @@ header{
 .welcome{
 	max-width: 1000px;
 	padding-top: 5%;
+
+	.contenedor{
+		padding-bottom: 5%;
+	}
 
 	div{
 		h2{		
@@ -221,6 +226,7 @@ header{
 		background-size:cover;
 		text-align: center;
 		width: 100%;
+		
 		div{
 			display: inline-block;
 			padding-bottom: 10%;
@@ -248,20 +254,25 @@ header{
 }
 
 .news{
-	text-align: center;	
+	
+	padding-top: 10%;
+
 	.new{
 		width: 31%;
 		
-		h2{
+		h2{ 
+			text-align: left;
 			font-family: 'Crimson Text', serif;
 	    	text-transform: capitalize;
 	    	font-weight: bold;
 	    	font-size: 30px;
+	    	padding-bottom: 6%;
 	    	color: black;
 		}
 		
-		p{
-			padding: 0px;
+		p{	
+			text-align: center;
+			padding-top: 8%;
 	    	font-family: 'Source Sans Pro', sans-serif;
 	    	font-size: 15px;
 	    	font-weight: normal;
@@ -275,9 +286,92 @@ header{
 .collections{
 	text-align: center;
 	max-width: 1000px;
+	
+	h2{
+		text-align: center;
+		padding-top: 5%;
+		padding-bottom: 2%;
+	   	font-family: 'Source Sans Pro', sans-serif;
+	   	font-size: 21px;
+	   	font-weight: normal;
+	   	text-transform: uppercase;
+	   	color: lightgrey;
+	}
 
 	.collection{
 		max-width: 31%;
     	padding: 2% 0.5%
 	}
+}
+
+footer{
+	border-top-style: 2px solid #3B4859;
+	padding-top: 7%;
+	padding-bottom: 7%;
+
+	ul{
+		width: 15%;
+		padding-left: 7%;
+
+		li{
+			padding-bottom: 17%;
+			text-align: left;
+	    	font-family: 'Source Sans Pro', sans-serif;
+	    	font-size: 17px;
+	    	font-weight: normal;
+	    	color: #3B4859;
+
+			p{
+				text-transform: uppercase;
+			}
+
+			a{
+				text-transform: capitalize;
+		    	text-decoration: none;
+		    	color: #3B4859
+			}
+
+		}
+	}
+
+	.twitter{
+		width: 40%;
+	}
+
+	.newsletter{
+		width: 40%;
+
+		h2{
+			padding-bottom: 5%;
+			font-family: 'Source Sans Pro', sans-serif;
+	    	font-size: 17px;
+	    	font-weight: normal;
+	    	color: #3B4859;
+	    	text-transform: uppercase;
+		}
+		input{
+			padding: 3%;
+    		padding-right: 63%;
+    		text-align: start;
+    		border-radius: 4%;
+    		border-style: 1px solid #3B4859;
+		}
+
+		p{
+			padding-bottom: 5%;
+    		padding-top: 10%;
+    		font-family: 'Source Sans Pro', sans-serif;
+	    	font-size: 17px;
+	    	font-weight: normal;
+	    	color: #3B4859;
+	    	text-transform: uppercase;
+		}
+
+		span{
+			font-size: 45px;
+			color: #3B4859;
+			padding-left: 2%;
+		}
+	}
+
 }
